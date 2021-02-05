@@ -83,6 +83,21 @@
     animation-fill-mode: forwards;
   }
 
+  .container-titulo-image h3{
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    text-align: center;
+    width: 530px;
+    padding: 0.5rem;
+    background-color: #006b33;
+    z-index: 10;
+    font-size: 1.6rem;
+    color: rgba(255,255,255,0.9);
+
+    text-transform: uppercase;
+  }
+
   @keyframes pop {
 
     0%{
